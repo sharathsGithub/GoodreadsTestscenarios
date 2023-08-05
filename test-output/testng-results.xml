@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T13:24:24 IST" name="Goodreads.com" finished-at="2023-08-05T13:24:58 IST" duration-ms="33570">
+    <groups>
+    </groups>
+    <test started-at="2023-08-05T13:24:24 IST" name="GoodreadsTestcases" finished-at="2023-08-05T13:24:58 IST" duration-ms="33570">
+      <class name="com.goodreads.qa.testcases.TestsecnariosonGoodreads">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:com.goodreads.qa.testcases.TestsecnariosonGoodreads@5c86a017]" started-at="2023-08-05T13:24:24 IST" name="HomePage" finished-at="2023-08-05T13:24:31 IST" duration-ms="7383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="Logincredentials(java.lang.String,java.lang.String)[pri:0, instance:com.goodreads.qa.testcases.TestsecnariosonGoodreads@5c86a017]" started-at="2023-08-05T13:24:31 IST" name="Logincredentials" data-provider="logindatas" finished-at="2023-08-05T13:24:57 IST" duration-ms="25722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharathdevadiga2222@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9606137497Sh@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincredentials -->
+        <test-method is-config="true" signature="teardwon()[pri:0, instance:com.goodreads.qa.testcases.TestsecnariosonGoodreads@5c86a017]" started-at="2023-08-05T13:24:57 IST" name="teardwon" finished-at="2023-08-05T13:24:58 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardwon -->
+      </class> <!-- com.goodreads.qa.testcases.TestsecnariosonGoodreads -->
+    </test> <!-- GoodreadsTestcases -->
+  </suite> <!-- Goodreads.com -->
+</testng-results>

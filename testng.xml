@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Goodreads.com">
+	<listeners>
+	<listener class-name="config.goodreads.qa.listenersfile.MYListnersclass"></listener>
+</listeners>
+  <test  name="GoodreadsTestcases">
+    <classes>
+      <class name="com.goodreads.qa.testcases.TestsecnariosonGoodreads"/>
+    </classes>
+  </test> <!-- GoodreadsTestcases -->
+</suite> <!-- Goodreads.com -->
